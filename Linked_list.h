@@ -2,6 +2,8 @@
 
 #define _LINKED_LIST
 
+
+// User-defined datatypes
 typedef struct my_student
 {
     char std_name[50];
@@ -38,7 +40,7 @@ typedef enum my_std_return
     ok
 }std_return;
 
-
+//functions Prototypes
 std_return create_list(linked_list *const ls);
 std_return insert_node ( linked_list *const ls);
 std_return view_list ( const linked_list * ls , const char sort_type);
